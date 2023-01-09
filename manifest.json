@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "name": "CNS",
+    "version": "2.0",
+    "description": "Cleaner NS player",
+    "icons": {"48": "logo.png"},
+    
+    "content_scripts": [{
+        "matches": ["*://*.neko-sama.fr/anime/episode/*"],
+        "js": ["main.js"]
+    }]
+}  
