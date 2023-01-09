@@ -1,2 +1,3 @@
 # NSC
-Clean the NS player
+
+Firefox extension to clean the NS player.
